@@ -14,7 +14,15 @@ io.on('connection', function(socket){
   //Notificar nueva oferta
   socket.on('setOffert', function(msg){
     io.emit('setOffert', msg);
-  });  
+  }); 
+  //Notificar nueva ofesadfasfrta
+  socket.on('setOffert', function(msg){
+    io.emit('setOffert', msg);
+  }); 
+      //Notificar nueva oferasfasfasta
+  socket.on('setOffert', function(msg){
+    io.emit('setOffert', msg);
+  }); 
 });
 
 http.listen(port, function(){
